@@ -10,9 +10,19 @@ gem 'jbuilder',             '2.2.3'
 gem 'sdoc',                 '0.4.0', group: :doc
 
 gem 'bootstrap-sass',       '3.2.0.0'
+
+#for crypt password
 gem 'bcrypt',               '3.1.7'
 
 gem 'unicorn',        '4.8.3'
+
+#for faker users
+gem 'faker',                '1.4.2'
+
+#for paginate
+gem 'will_paginate',           '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
+
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
