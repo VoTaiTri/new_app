@@ -58,4 +58,6 @@ class PasswordResetsTest < ActionDispatch::IntegrationTest
     assert_not flash.empty?
     assert_redirected_to user
   end
+
+
 end

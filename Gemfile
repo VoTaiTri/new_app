@@ -19,6 +19,11 @@ gem 'unicorn',        '4.8.3'
 #for faker users
 gem 'faker',                '1.4.2'
 
+#for upload images
+gem 'carrierwave',             '0.10.0'
+gem 'mini_magick',             '3.8.0'
+gem 'fog',                     '1.23.0'
+
 #for paginate
 gem 'will_paginate',           '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
